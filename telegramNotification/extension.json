@@ -1,0 +1,17 @@
+{
+    "name": "HTTP POST to Telegram bot",
+    "author": "crocodeev",
+    "url": "mailto:svin862003@mail.ru",
+    "description": "Sends a notification to Telegram about new change",
+    "version": "0.1",
+    "license-name": "MIT",
+    "type": "other",
+    "AutoloadClasses": {
+        "telegramNotification": "telegramNotification_body.php"
+    },
+    "Hooks": {
+        "PageContentSaveComplete": [
+            "telegramNotification::sendNotification"
+        ]
+    }
+}
