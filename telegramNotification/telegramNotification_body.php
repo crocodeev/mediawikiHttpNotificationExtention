@@ -7,7 +7,7 @@ class telegramNotification {
         $articleTitle = $article->getTitle();
 
         curl_setopt_array($curl, array(
-                CURLOPT_URL => "http://sound.inplay.space/test/p/",
+                CURLOPT_URL => "placeholder",
                 CURLOPT_RETURNTRANSFER => true,
                 CURLOPT_ENCODING => "",
                 CURLOPT_MAXREDIRS => 10,
